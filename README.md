@@ -420,8 +420,8 @@ MIT License - See LICENSE file
 ## 👤 Author
 
 **Abdul Ahad**
-- Portfolio: [your-portfolio.com]
-- LinkedIn: [[linkedin.com/in/yourprofile](https://www.linkedin.com/in/abdul-ahad-97480b297/)]
+- Portfolio: [abdulsresume.online]
+- LinkedIn: [[Abdul Ahad](https://www.linkedin.com/in/abdul-ahad-97480b297/)]
 - GitHub: [@Abd2301]
 
 ## 🙏 Acknowledgments
