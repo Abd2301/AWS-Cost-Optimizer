@@ -44,8 +44,6 @@ EventBridge (6 AM IST)        EventBridge (7 AM IST)
    Send SMS alert              Log to DynamoDB → SMS alert
                                        ↓
                              CostSavingsQueryFunction
-                                       ↓
-                            Calculate cumulative savings
 ```
 
 ### Components
@@ -415,38 +413,16 @@ Error: User is not authorized to perform: dynamodb:PutItem
 - EventBridge permissions aren't always auto-created (learned manual permission grants)
 - DynamoDB on-demand mode is perfect for low-traffic workloads
 
-## 🔮 Future Enhancements
-
-### Phase 2 (Multi-Account)
-- [ ] Deploy via CloudFormation StackSets
-- [ ] Cross-account IAM roles
-- [ ] Centralized DynamoDB aggregation
-- [ ] Per-account cost allocation
-
-### Phase 3 (Enterprise Features)
-- [ ] Step Functions for approval workflows
-- [ ] API Gateway for query endpoint
-- [ ] QuickSight dashboard for executives
-- [ ] Slack/Teams integration
-- [ ] Configurable grace periods per environment
-- [ ] Machine learning to predict future waste
-
-### Phase 4 (Advanced Automation)
-- [ ] Auto-rightsize EC2 instances (not just delete)
-- [ ] S3 lifecycle policy automation
-- [ ] RDS snapshot management
-- [ ] Reserved Instance recommendations
-
 ## 📄 License
 
 MIT License - See LICENSE file
 
 ## 👤 Author
 
-**[Your Name]**
+**Abdul Ahad**
 - Portfolio: [your-portfolio.com]
-- LinkedIn: [linkedin.com/in/yourprofile]
-- GitHub: [@yourusername]
+- LinkedIn: [[linkedin.com/in/yourprofile](https://www.linkedin.com/in/abdul-ahad-97480b297/)]
+- GitHub: [@Abd2301]
 
 ## 🙏 Acknowledgments
 
